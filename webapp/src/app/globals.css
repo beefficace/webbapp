@@ -1,0 +1,31 @@
+:root {
+  --primary-gradient-start: #30478A;
+  --primary-gradient-end: #8A3082;
+  --accent-gold: #D4A373;
+  --accent-green: #8FBC8F;
+  --background-linen: #F5F5DC;
+
+  --font-inter: '__inter_Fallback_e87273', sans-serif;
+  --font-playfair-display: '__playfair_display_Fallback_1580f7', serif;
+}
+
+body {
+  background-color: var(--background-linen);
+  color: #333;
+  font-family: var(--font-inter);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair-display);
+}
+
+a {
+  color: var(--accent-gold);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
